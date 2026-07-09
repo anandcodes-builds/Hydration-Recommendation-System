@@ -1,24 +1,30 @@
-# 💧 Hydration Recommendation System
+# Personalized Hydration Recommendation System
 
-## Description
-A machine learning-based web application that recommends daily water intake based on user information such as age, weight, temperature, humidity, and physical activity.
+Linear regression-based system to estimate optimal daily water intake, 
+developed as part of a team project (ML component independently led 
+and developed).
 
-## Features
-- Predicts daily water intake
-- Flask web interface
-- Machine Learning model
-- Data preprocessing
-- Easy to use
+## Problem
+Generic hydration guidelines ignore individual factors like activity level, 
+weight, and ambient temperature.
 
-## Technologies
-- Python
-- Flask
-- Scikit-learn
-- Pandas
-- NumPy
+## My Contribution
+Led the ML component of a team project — designed the data pipeline, 
+EDA, and model logic behind the app.
 
-## Run the Project
+## Approach
+- Linear Regression on age, gender, weight, activity level, ambient temperature
+- Preprocessing: label encoding, normalization
+- EDA to identify key hydration patterns
 
-```bash
-pip install -r requirements.txt
-python app.py
+## Results
+Personalized daily water intake predictions with comparison to ideal 
+hydration levels.
+
+## Tech Stack
+Python, Scikit-learn, Pandas, Streamlit
+
+## How to Run
+1. Clone the repo
+2. `pip install -r requirements.txt`
+3. `streamlit run app.py`
