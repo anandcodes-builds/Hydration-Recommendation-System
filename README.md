@@ -1,2 +1,24 @@
-# Hydration-Recommendation-System
-Hydration Recommendation System is a machine learning-based web application that recommends the daily amount of water a user should drink based on personal details such as age, weight, activity level, temperature, and humidity. It helps users maintain healthy hydration habits through personalized recommendations.
+# 💧 Hydration Recommendation System
+
+## Description
+A machine learning-based web application that recommends daily water intake based on user information such as age, weight, temperature, humidity, and physical activity.
+
+## Features
+- Predicts daily water intake
+- Flask web interface
+- Machine Learning model
+- Data preprocessing
+- Easy to use
+
+## Technologies
+- Python
+- Flask
+- Scikit-learn
+- Pandas
+- NumPy
+
+## Run the Project
+
+```bash
+pip install -r requirements.txt
+python app.py
